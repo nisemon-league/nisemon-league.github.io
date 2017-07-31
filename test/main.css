@@ -17,12 +17,15 @@ table{
 }
 th, td{
 	height: 25px;
-	border-bottom: 2px;
+}
+tr:nth-child(even){
+	background-color: #414a4c;
 }
 .table-name{
-	width: 350px;
+	width: 85%;
 }
-.table-score{
+.centre{
+	text-align: center;
 }
 .bordered{
 	background-color: #353839;
@@ -45,6 +48,10 @@ h1{
 	font-family: "Trebuchet MS";
 }
 h2{
+	color: white;
+	font-family: "Trebuchet MS";
+}
+h3{
 	color: white;
 	font-family: "Trebuchet MS";
 }
