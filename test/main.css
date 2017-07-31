@@ -25,7 +25,14 @@ tr:nth-child(even){
 	width: 85%;
 }
 .centre{
+	/*For non-image elements*/
 	text-align: center;
+}
+#centre{
+	/*For image elements*/
+	display: block;
+	margin: auto;
+	width: auto;
 }
 .bordered{
 	background-color: #353839;
