@@ -34,6 +34,12 @@ tr:nth-child(even){
 	margin: auto;
 	width: auto;
 }
+#centre-fixed{
+	/*For image elements with the img width readjustment*/
+	display: block;
+	margin: auto;
+	width: 65%;
+}
 .bordered{
 	background-color: #353839;
 	border-style: outset;
@@ -46,19 +52,7 @@ tr:nth-child(even){
 .borderless{
 	background-color: #232b2b;
 }
-p{
-	color: white;
-	font-family: "Trebuchet MS";
-}
-h1{
-	color: white;
-	font-family: "Trebuchet MS";
-}
-h2{
-	color: white;
-	font-family: "Trebuchet MS";
-}
-h3{
+p, h1, h2, h3, li{
 	color: white;
 	font-family: "Trebuchet MS";
 }
@@ -79,10 +73,6 @@ a:hover{
 }
 ul{
 	color: white;
-}
-li{
-	color: white;
-	font-family: "Trebuchet MS";
 }
 footer{
 	text-align: center;
