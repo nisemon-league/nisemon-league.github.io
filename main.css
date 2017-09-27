@@ -1,4 +1,4 @@
-body{
+body, .borderless{
 
 	background-color: #232b2b;
 }
@@ -21,24 +21,23 @@ th, td{
 tr:nth-child(even){
 	background-color: #414a4c;
 }
-.table-name{
+th:nth-child(2), td:nth-child(2){
 	width: 85%;
 }
-.centre{
-	/*For non-image elements*/
+.centre, footer{
+	/*For text elements*/
 	text-align: center;
 }
-#centre{
+img.centre{
 	/*For image elements*/
 	display: block;
-	margin: auto;
 	width: auto;
+	margin: auto;
 }
-#centre-fixed{
+img.centre-re{
 	/*For image elements with the img width readjustment*/
 	display: block;
 	margin: auto;
-	width: 65%;
 }
 .bordered{
 	background-color: #353839;
@@ -49,19 +48,11 @@ tr:nth-child(even){
 	margin: auto;
 	width: 75%;
 }
-.borderless{
-	background-color: #232b2b;
-}
 p, h1, h2, h3, li{
 	color: white;
 	font-family: "Trebuchet MS";
 }
-a:link{
-	color: #8fcc33;
-	text-decoration: none;
-	font-family: "Trebuchet MS";
-}
-a:visited{
+a:link, a:visited{
 	color: #8fcc33;
 	text-decoration: none;
 	font-family: "Trebuchet MS";
@@ -73,7 +64,4 @@ a:hover{
 }
 ul{
 	color: white;
-}
-footer{
-	text-align: center;
 }
