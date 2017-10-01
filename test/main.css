@@ -1,5 +1,4 @@
 body, .borderless{
-
 	background-color: #232b2b;
 }
 img{
@@ -38,6 +37,10 @@ img.centre-re{
 	/*For image elements with the img width readjustment*/
 	display: block;
 	margin: auto;
+}
+ul.strat img{
+	width:auto;
+	display: inline;
 }
 .bordered{
 	background-color: #353839;
