@@ -28,18 +28,20 @@ th:nth-child(2), td:nth-child(2){
 	text-align: center;
 }
 img.centre{
-	/*For image elements*/
 	display: block;
 	width: auto;
 	margin: auto;
 }
 img.centre-re{
-	/*For image elements with the img width readjustment*/
 	display: block;
 	margin: auto;
 }
 div.strat img{
 	width: auto;
+}
+img.strat{
+	width: auto;
+	border: 10% solid;
 }
 .bordered{
 	background-color: #353839;
