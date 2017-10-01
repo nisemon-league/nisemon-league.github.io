@@ -38,9 +38,8 @@ img.centre-re{
 	display: block;
 	margin: auto;
 }
-ul.strat img{
-	width:auto;
-	display: inline;
+div.strat img{
+	width: auto;
 }
 .bordered{
 	background-color: #353839;
