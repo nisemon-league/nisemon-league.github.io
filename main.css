@@ -12,7 +12,7 @@ table{
 	margin-left: auto;
 	border-style: solid;
 	border-radius: 5px;
-	border-width: 2px;
+	border-width: 0.125em;
 }
 th, td{
 	height: 25px;
@@ -27,7 +27,11 @@ th:nth-child(2), td:nth-child(2){
 	/*For text elements*/
 	text-align: center;
 }
-img.centre{
+.centre-re{
+	margin-left: auto;
+	margin-right: auto;
+}
+img.centre, button.centre{
 	display: block;
 	width: auto;
 	margin: auto;
@@ -39,9 +43,22 @@ img.centre-re{
 div.strat img{
 	width: auto;
 }
-img.strat{
-	width: auto;
-	border: solid;
+p.hide{
+	display: none;
+}
+div.bordered2 > div{
+	display: flex;
+	align-items: center;
+}
+div.bordered2 ul.strat{
+	list-style: none;
+}
+div.bordered2 ul.strat span{
+	color: #949499;
+}
+button.centre{
+	padding: 10px 40px;
+	font-size: 1em;
 }
 .bordered{
 	background-color: #353839;
@@ -51,6 +68,14 @@ img.strat{
 	border-color: #3b444b;
 	margin: auto;
 	width: 75%;
+}
+.bordered2{
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 2px;
+	color: #7b7b7f;
+	padding: 1%;
+	width: 55%;
 }
 p, h1, h2, h3, li{
 	color: white;
