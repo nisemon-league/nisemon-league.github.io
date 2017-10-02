@@ -12,7 +12,7 @@ table{
 	margin-left: auto;
 	border-style: solid;
 	border-radius: 5px;
-	border-width: 2px;
+	border-width: 0.125em;
 }
 th, td{
 	height: 25px;
@@ -28,19 +28,23 @@ th:nth-child(2), td:nth-child(2){
 	text-align: center;
 }
 img.centre{
-	/*For image elements*/
 	display: block;
 	width: auto;
 	margin: auto;
 }
 img.centre-re{
-	/*For image elements with the img width readjustment*/
 	display: block;
 	margin: auto;
 }
-ul.strat img{
-	width:auto;
-	display: inline;
+div.strat img{
+	width: auto;
+}
+img.strat{
+	width: auto;
+	border: solid;
+}
+p.hide{
+	display: none;
 }
 .bordered{
 	background-color: #353839;
