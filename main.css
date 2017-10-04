@@ -94,3 +94,12 @@ a:hover{
 ul{
 	color: white;
 }
+span.threat-ht{
+	color: #8cff84;
+}
+span.threat-lt{
+	color: #83c7ff;
+}
+span.threat-su{
+	color: #ff8383;
+}
