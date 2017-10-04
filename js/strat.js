@@ -1,14 +1,16 @@
-function copyToClipboard(id) {
-	var stratSet = document.getElementById(id).innerHTML;
-	window.alert(stratSet);
-	//window.clipboardData.setData("text/plain", strat);
-	//var dummy = document.createElement("textarea");
-	//dummy.innerHTML = strat;
-	//dummy.select();
-	//document.execCommand("copy");
-	//document.body.removeChild(dummy);
-}
+function copyToClipboard() {
+	//Get the value to be copied
+	var stratSet = document.getElementById('to-copy').innerHTML;
 
-function test(){
-	window.alert("OK!");
+	//Create an empty textarea, fill it with data to be copied
+	var dummy = document.createElement("textarea");
+	document.body.appendChild(dummy);
+	dummy.value = stratSet;
+	
+	//Copy data and remove the buffer
+	dummy.select();
+	document.execCommand("copy");
+	document.body.removeChild(dummy);
+
+	window.alert("Set copied to clipboard!");
 }
