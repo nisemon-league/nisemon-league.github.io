@@ -1,6 +1,6 @@
-function copyToClipboard() {
+function copyToClipboard(id) {
 	//Get the value to be copied
-	var stratSet = document.getElementById('to-copy').innerHTML;
+	var stratSet = document.getElementById(id).innerHTML;
 
 	//Create an empty textarea, fill it with data to be copied
 	var dummy = document.createElement("textarea");
