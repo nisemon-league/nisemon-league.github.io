@@ -31,7 +31,7 @@ th:nth-child(2), td:nth-child(2){
 	margin-left: auto;
 	margin-right: auto;
 }
-img.centre, button.centre{
+img.centre, button.centre, textarea.centre{
 	display: block;
 	width: auto;
 	margin: auto;
@@ -102,4 +102,9 @@ span.threat-lt{
 }
 span.threat-su{
 	color: #ff8383;
+}
+textarea.converter{
+	resize: none;
+	text-align: left;
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }

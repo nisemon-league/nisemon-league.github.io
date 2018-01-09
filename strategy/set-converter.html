@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>NL-docs/strategy - Set Converter</title>
+		<link rel="shortcut icon" href="http://i.imgur.com/ppCnpnH.png">
+		<link rel="stylesheet" type="text/css" href="../main.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="../js/convert.js"></script>
+	</head>
+	<body>
+		<div class="borderless">
+			<a href="https://dististik.github.io"><img src="http://i.imgur.com/XMvAvxZ.png"/></a>
+			<p></p>
+		</div>
+		<div class="bordered">
+			<h1>Set Converter</h1>
+			<p>This is a web-based converter to change Pokémon Showdown sets into the strings used by the Nisemon League strategy resource to make each set coppiable with buttons. All you need to do is paste a Showdown set into the text box below and click "Convert", however please be sure that the set follows the following criterea, otherwise the button will only return an error:</p>
+			<ul>
+				<li><b>No</b> whitespace between lines (unnecessary spaces at the end of lines)</li>
+				<li>Only one move/item/ability per slot</li>
+				<li>A space on both sides of each backslash seperating EV/IV values</li>
+				<li>Make sure to set the "Has IV Values" dropdown at the end of the converter to "True" if your set specifies IV values</li>
+			</ul>
+			<p>If you recieve an error even while following the above criterea, let Alice know on Discord.</p>
+			<form name="convert_frm">
+				<textarea name="set_copy" class="centre converter" rows="10" cols="50"></textarea>
+				<p class="centre">Has IV Values
+					<select name="selectIV">
+						<option>False</option>
+						<option>True</option>
+					</select>
+				</p>
+				<button name="convert_btn" type="button" class="centre">Convert</button>
+			</form><br/>
+		</div>
+	</body>
+	<footer>
+		<p><i>Website hosted on <a href="https://github.com/">GitHub</a> and images hosted on <a href="http://imgur.com/">imgur</a>.</i>
+		</p>
+	</footer>
+</html>
